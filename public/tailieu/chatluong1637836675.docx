@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC</title>
+</head>
+<body>
+   
+    <h1>
+         <br />
+<b>Warning</b>:  fopen(public/tailieu/chatluong.docx): Failed to open stream: `' is not a valid mode for fopen in <b>F:\xa hoi\xam\xamsetup\htdocs\PTIT\app\controller\tailieu.php</b> on line <b>62</b><br />
+<br />
+<b>Warning</b>:  filesize(): stat failed for public/tailieu/chatluong.docx in <b>F:\xa hoi\xam\xamsetup\htdocs\PTIT\app\controller\tailieu.php</b> on line <b>75</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught ValueError: passthru(): Argument #1 ($command) cannot be empty in F:\xa hoi\xam\xamsetup\htdocs\PTIT\app\controller\tailieu.php:78
+Stack trace:
+#0 F:\xa hoi\xam\xamsetup\htdocs\PTIT\app\controller\tailieu.php(78): passthru('')
+#1 F:\xa hoi\xam\xamsetup\htdocs\PTIT\system\main.php(52): tailieu-&gt;download('chatluong.docx')
+#2 F:\xa hoi\xam\xamsetup\htdocs\PTIT\system\main.php(12): main-&gt;callmethod()
+#3 F:\xa hoi\xam\xamsetup\htdocs\PTIT\index.php(17): main-&gt;__construct()
+#4 {main}
+  thrown in <b>F:\xa hoi\xam\xamsetup\htdocs\PTIT\app\controller\tailieu.php</b> on line <b>78</b><br />

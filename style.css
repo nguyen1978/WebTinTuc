@@ -1,0 +1,293 @@
+*{
+    font-size: 15px !important;
+    text-decoration: none !important;
+    
+    
+}
+p,a,h4,h5{
+    text-align: justify!important;
+}
+.headrText{
+    color: white;
+    padding: 0 7px;
+    text-decoration: none;
+    
+}
+.tieude{
+    font-weight: 390!important;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.post-scroll{
+    height: 120vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+.Danhsachdanhmuc{
+ margin: 10% 0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #eb8d2c;
+}
+.maxsizeimg{
+    max-height: 400px;
+    width: 300px !important;
+    margin-left: 26px;
+}
+
+a{
+    color: black !important;
+}
+.marcontent{
+    margin: 1% 0;
+  
+}
+.alo{
+    max-height: 624px !important;
+}
+.marchung{
+    margin: 3% 0;
+}
+.cangiua{
+display:block;    
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+padding-left: 55px ;
+
+}
+.hover:hover{
+background-color: blanchedalmond !important;
+}
+.iconContact{
+    width: 50px;
+    height: 50px;
+    margin: 15px 20px;
+}
+.iconContact:hover{
+   transform: scale(2,2);
+   transition: 0.5s;
+}
+#contact{
+    margin-top: 5%;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 15px 40px;
+}
+.icon:hover{
+   transform: scale(1.5,1.5);
+   transition: 0.5s;
+}
+.titleBack{
+    background: #eb8d2c;
+    color: white;
+    padding: 10px 5px;
+    display: block;
+    min-width: 100px;
+    max-width: 200px;
+}
+.gachchan{
+    border-bottom: 1px solid;
+}
+.hover:hover{
+   background-color: white;
+   color:black !important;
+ 
+
+    
+}
+.hover-chung:hover{
+    transform: scaleY(1.01);
+}
+.slider{
+    width: 100%;
+    height: 40em;
+    
+}
+.quay{
+    text-align: center;
+    position: fixed;
+    right: 0%;
+    top: 80%;
+}
+.camnanghover:hover .tieeu{
+    display: flex;
+}
+.tieeu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    display: none; text-align: center;
+}
+#lienhe{
+    box-shadow: 0 0  10px gray;
+    display: inline-block;
+    padding: 7px 5px;
+    background: #eb8d2c;
+    transform: rotate(90deg);
+    color: rgb(170, 34, 34) !important;
+    font-size: 18px;
+
+}
+.lienhe-content{
+    color: black !important;
+    text-decoration: none !important;
+    background: #eb8d2c;
+}
+.quay:hover #lienhe{
+    transform: rotate(720deg) scale(1.2);
+    right: 1%;
+    transition: 0.2s;
+   
+}
+.chitietbaiviet img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    
+}
+.chitietbaiviet{
+    text-align: justify;
+}
+.tinlienquan h4{
+    font-size: 17px !important;
+    color: black;
+}
+.tinlienquan{
+    margin-top: 12px;
+}
+#nav-header{
+    /* position: fixed;  */
+    z-index:2 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+   background:#eb8d2c;
+    min-height: 10%;   
+    font-size: large;
+}
+#slider-wrapper{
+    position: relative;
+    left: 0;
+    right: 0;
+    top:10%;
+  
+}
+#dulieutiem{
+    margin: 4% 0;
+    
+}
+
+.modal{
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    animation: modalfaded ease 0.5s;
+}
+.modal.open{
+    display: flex;
+    z-index: 10;
+}
+.tin{
+    position: relative;
+}
+.phantrangcha{
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    overflow: auto;
+}
+.phantrang{
+    color: #eb8d2c !important;
+
+    font-weight: 500;
+  position: absolute;
+  bottom: -6px;
+  right:3px
+
+}
+.camnangyte{
+    box-shadow: 0 0 1px rgba(114, 107, 107,0.8);
+}
+.camnangyte:hover{
+    opacity: 0.9;
+}
+.login{
+    width: 400px;
+    min-height: 350px;
+    background-color: #eb8d2c;
+    max-width: calc(100%-32);
+    position: relative;
+}
+.dangnhap{
+    margin-top: 25px;
+    text-align: right;
+    padding-right: 30px;
+    
+
+}
+.modal-close{
+   display: inline-block;
+   position: absolute;
+   right: 0;
+   top: 0;
+   padding: 2px;
+
+}
+#close{
+   font-size: 30px;
+   color: rgb(216, 27, 27);
+}
+.logodangnhap{
+    margin: 30px auto;
+}
+.logodangnhap>img{
+    margin-bottom: 12px;
+}
+.user, .pass{
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 17px;
+}
+ #dienbien{
+    margin: 0.9% 0;
+} 
+#thongtinhocvien{
+    margin: 4% 0;
+}
+#footer-seecsion{
+    background:#eb8d2c !important;
+}
+.img-content{
+    width: 100%;
+}
+@keyframes modalfaded{
+    from{
+        opacity: 0;
+        transform: translateY(-140px) ;
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
